@@ -18,14 +18,14 @@
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> BEACHES</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a> -->
-    <div class="w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-container w3-opacity-min">
       <div class="w3-bar-item w3-right" style="white-space:nowrap;">
         <span class="w3-right w3-padding-small w3-black w3-small w3-wide w3-animate-opacity">BEACH <span class="w3-hide-small"> </span> BULLETIN</span>
       </div>
@@ -42,63 +42,53 @@
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+<section class="parallax" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">BEACH <span class="w3-hide-small"> </span> BULLETIN</span>
   </div>
-</div>
+</section>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT THIS WEBSITE</h3>
+<div class="w3-content w3-container" id="about">
+  <h3 class="w3-center AboutContainer">ABOUT THIS WEBSITE</h3>
   <p>Welcome to Beach Bulletin! This website is designed to help you find you the best beaches in the world. You can also filter them by continent (excluding Antarctica of course). Click on the images to make them bigger. Enjoy! </p>
 </div>
 
 <!-- !BEACHES BY REGION! -->
-<div class="w3-main" style="margin-left:10px">
+<!-- Header -->
+<div><header id="portfolio" style="height:30px"></header></div>
 
-    <!-- Header -->
-    <header id="portfolio">
-      <div class="w3-container">
-      <h1><b>Beaches by Region</b></h1>
-      <div class="w3-section w3-bottombar w3-padding-16">
+<div class="w3-main" style="margin-left:10px">
+  <div class="w3-container">
+    <h1><b>Beaches by Region</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
         <span class="w3-margin-right">Filter:</span> 
         <div id="myBtnContainer">
           <button class="btn active" onclick="filterSelection('all')">ALL</button>
-          <button class="btn " onclick="filterSelection('North')"><i class="fa fa-map-pin w3-margin-right"></i>North</button>
-          <button class="btn " onclick="filterSelection('South')"><i class="fa fa-map-pin w3-margin-right"></i>South</button>
+          <button class="btn " onclick="filterSelection('North')"><i class="fa fa-map-pin w3-margin-right"></i>North America</button>
+          <button class="btn " onclick="filterSelection('South')"><i class="fa fa-map-pin w3-margin-right"></i>South America</button>
           <button class="btn " onclick="filterSelection('Europe')"><i class="fa fa-map-pin w3-margin-right"></i>Europe</button>
         </div>
-      </div>
-      </div>
-    </header>
-    
-<!--
- w3-button w3-black
-w3-button w3-white w3-hide-small
-w3-button w3-white w3-hide-small
-w3-button w3-white w3-hide-small
--->
-
-
+    </div>
+  </div>
+  
     <!-- First Photo Grid-->
     <div class="CardContainer">
-      <div class="filterDiv North">
+      <div class="filterDiv North America">
         <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1020&quality=45&auto=format&fit=max&dpr=2&s=32398aa112c8f127d4fbe2f239647d9d" alt="USA" style="width:100%" class="w3-hover-opacity rounded-corners1">
         <div class="Subtext">
           <p><b>Lorem Ipsum</b></p>
-          
           <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
       </div>
-      <div class="filterDiv North">
+      <div class="filterDiv North America">
         <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1020&quality=45&auto=format&fit=max&dpr=2&s=32398aa112c8f127d4fbe2f239647d9d" alt="Mexico" style="width:100%" class="w3-hover-opacity rounded-corners1">
         <div class="Subtext">
           <p><b>Lorem Ipsum</b></p>
           <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
       </div>
-      <div class="filterDiv South">
+      <div class="filterDiv South America">
         <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1020&quality=45&auto=format&fit=max&dpr=2&s=32398aa112c8f127d4fbe2f239647d9d" alt="Australia" style="width:100%" class="w3-hover-opacity rounded-corners1">
         <div class="Subtext">
           <p><b>Lorem Ipsum</b></p>
@@ -106,54 +96,6 @@ w3-button w3-white w3-hide-small
         </div>
       </div>
     </div>
-    
-<!--
-w3-third w3-container w3-margin-bottom 
-w3-third w3-container w3-margin-bottom 
-w3-third w3-container 
--->
-
-
-    <!-- Second Photo Grid-->
-    <!---
-    <div class="w3-row-padding">
-      <div class="w3-third w3-container w3-margin-bottom">
-        <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1020&quality=45&auto=format&fit=max&dpr=2&s=32398aa112c8f127d4fbe2f239647d9d" alt="France" style="width:100%" class="w3-hover-opacity rounded-corners1">
-        <div class="w3-container w3-white">
-          <p><b>Lorem Ipsum</b></p>
-          <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        </div>
-      </div>
-      <div class="w3-third w3-container w3-margin-bottom">
-        <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1020&quality=45&auto=format&fit=max&dpr=2&s=32398aa112c8f127d4fbe2f239647d9d" alt="Italy" style="width:100%" class="w3-hover-opacity rounded-corners1">
-        <div class="w3-container w3-white">
-          <p><b>Lorem Ipsum</b></p>
-          <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        </div>
-      </div>
-      <div class="w3-third w3-container">
-        <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1020&quality=45&auto=format&fit=max&dpr=2&s=32398aa112c8f127d4fbe2f239647d9d" alt="Spain" style="width:100%" class="w3-hover-opacity rounded-corners1">
-        <div class="w3-container w3-white">
-          <p><b>Lorem Ipsum</b></p>
-          <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        </div>
-      </div>
-    </div>
-  -->
-  
-    <!-- Pagination -->
-  <!--
-    <div class="w3-center w3-padding-32">
-      <div class="w3-bar">
-        <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-        <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
-      </div>
-    </div>
-  -->
 </div>
     
   
@@ -177,7 +119,7 @@ w3-third w3-container
         <!-- <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Coastal Hacks<br>
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br> -->
-        <div class="w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-container w3-opacity-min">
           <div class="w3-display-left" style="white-space:nowrap;">
             <span class="w3-center w3-padding-small w3-black w3-medium w3-wide w3-animate-opacity">BEACH <span class="w3-hide-small"> </span> BULLETIN</span>
           </div>
@@ -234,20 +176,7 @@ function onClick(element) {
 // Change style of navbar on scroll
 
 var navbar = document.getElementById("myNavbar");
-    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-
-//window.onscroll = function() {myFunction()};
-//function myFunction() {
-//    var navbar = document.getElementById("myNavbar");
-//    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    
-  // if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-  //      navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-  //  } else {
-  //      navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-  //  }
-
-//}
+  navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
@@ -308,12 +237,6 @@ for (var i = 0; i < btns.length; i++) {
 
 
 
-
-
-
-
-
 </script>
-
 </body>
 </html>
