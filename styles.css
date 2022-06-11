@@ -23,6 +23,20 @@ body, html {
     box-shadow: 2px 2px lightblue;
 }
 
+.CardContainer {
+  height: 400px;
+}
+
+.beachImage{
+  height: 300px;
+  width: 300px;
+}
+
+.beachImage img{
+  height: 100%;
+  width: 100%;
+}
+
 .rounded-corners1 {
     border-radius:10px;
 }
