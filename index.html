@@ -64,40 +64,56 @@
       <div class="w3-section w3-bottombar w3-padding-16">
         <span class="w3-margin-right">Filter:</span> 
         <div id="myBtnContainer">
-          <button class="btn active w3-button w3-black" onclick="filterSelection('all')">ALL</button>
-          <button class="btn w3-button w3-white w3-hide-small" onclick="filterSelection('North America')"><i class="fa fa-map-pin w3-margin-right"></i>North America</button>
-          <button class="btn w3-button w3-white w3-hide-small" onclick="filterSelection('South America')"><i class="fa fa-map-pin w3-margin-right"></i>South America</button>
-          <button class="btn w3-button w3-white w3-hide-small" onclick="filterSelection('Europe')"><i class="fa fa-map-pin w3-margin-right"></i>Europe</button>
+          <button class="btn active" onclick="filterSelection('all')">ALL</button>
+          <button class="btn " onclick="filterSelection('North')"><i class="fa fa-map-pin w3-margin-right"></i>North</button>
+          <button class="btn " onclick="filterSelection('South')"><i class="fa fa-map-pin w3-margin-right"></i>South</button>
+          <button class="btn " onclick="filterSelection('Europe')"><i class="fa fa-map-pin w3-margin-right"></i>Europe</button>
         </div>
       </div>
       </div>
     </header>
     
+<!--
+ w3-button w3-black
+w3-button w3-white w3-hide-small
+w3-button w3-white w3-hide-small
+w3-button w3-white w3-hide-small
+-->
+
+
     <!-- First Photo Grid-->
     <div class="CardContainer">
-      <div class="w3-third w3-container w3-margin-bottom filterDiv">
+      <div class="filterDiv North">
         <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1020&quality=45&auto=format&fit=max&dpr=2&s=32398aa112c8f127d4fbe2f239647d9d" alt="USA" style="width:100%" class="w3-hover-opacity rounded-corners1">
-        <div class="w3-container w3-white">
+        <div class="Subtext">
           <p><b>Lorem Ipsum</b></p>
+          
           <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
       </div>
-      <div class="w3-third w3-container w3-margin-bottom filterDiv">
+      <div class="filterDiv North">
         <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1020&quality=45&auto=format&fit=max&dpr=2&s=32398aa112c8f127d4fbe2f239647d9d" alt="Mexico" style="width:100%" class="w3-hover-opacity rounded-corners1">
-        <div class="w3-container w3-white">
+        <div class="Subtext">
           <p><b>Lorem Ipsum</b></p>
           <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
       </div>
-      <div class="w3-third w3-container filterDiv">
+      <div class="filterDiv South">
         <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1020&quality=45&auto=format&fit=max&dpr=2&s=32398aa112c8f127d4fbe2f239647d9d" alt="Australia" style="width:100%" class="w3-hover-opacity rounded-corners1">
-        <div class="w3-container w3-white">
+        <div class="Subtext">
           <p><b>Lorem Ipsum</b></p>
           <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
       </div>
     </div>
     
+<!--
+w3-third w3-container w3-margin-bottom 
+w3-third w3-container w3-margin-bottom 
+w3-third w3-container 
+-->
+
+
     <!-- Second Photo Grid-->
     <!---
     <div class="w3-row-padding">
