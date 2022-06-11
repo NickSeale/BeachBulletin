@@ -63,7 +63,7 @@ body, html {
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> BEACHES</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
@@ -336,7 +336,7 @@ body, html {
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
-      <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+      <img src="https://i.pinimg.com/originals/4e/8a/59/4e8a5952313e3cedc14e4f029aa9f846.png" class="w3-image w3-round" style="width:100%">
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
@@ -387,15 +387,22 @@ function onClick(element) {
 }
 
 // Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
+
+var navbar = document.getElementById("myNavbar");
+    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+
+//window.onscroll = function() {myFunction()};
+//function myFunction() {
+//    var navbar = document.getElementById("myNavbar");
+//    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    
+  // if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  //      navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+  //  } else {
+  //      navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+  //  }
+
+//}
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
