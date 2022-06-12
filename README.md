@@ -32,6 +32,7 @@ Featured Locations:
     Zapallar
         Valparaíso, Chile
 
+
 <b>Europe</b>
 -------------
     Cala Macarella
@@ -40,9 +41,6 @@ Featured Locations:
         Navagio, Greece
     Praiaas Catedrais
         As Catedrais beach, Spain
-    Praia da Arrrifana
-        Praia da Arrrifana, Portugal
-
 
 
 <b>Africa</b>
@@ -66,9 +64,6 @@ Featured Locations:
         Isla Harbour, Bahamas
     Pom Pom Island
         Sabah, Malaysia
-    Railay Beach
-        Ao Nang, Mueang Krabi District, Krabi, Thailand
-
 
 
 <b>Australia</b>
