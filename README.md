@@ -22,38 +22,51 @@ South America
         Nuqui, Colombia
     Playa El Almejal
         Bahia Solano, Choco, Colombia
-    Playa Roja.
+    Playa Roja
         Paracas, Peru
     Zapallar
         Valparaíso, Chile
 
-<EXACT BEACH NAMES AND ADDRESSES NOT YET ENTERED FOR CONTINENTS BELOW IGNORE FOR NOW>
-
 Europe
     Cala Macarella
+        07750, Balearic Islands, Spain
     Navagio Beach
+        Navagio, Greece
     Praiaas Catedrais
-    Praiada Arrrifana
+        As Catedrais beach, Spain
+    Praia da Arrrifana
+        Praia da Arrrifana, Portugal
+
 
 
 Africa
     Bazaruto Island
+        Bazaruto Island, Mozambique
     Camps Bay Beach
+        Cape Town, 8005, South Africa
     Nungwi Beach
+        Nungwi Beach, Tanzania
     Shela Beach
+        PW37+3WX, Shella Manda, Shela, Kenya
 
 
 
 Asia
     Miyako Island
+        Miyakojima, Okinawa, Japan
     Pink Beach
+        Isla Harbour, Bahamas
     Pom Pom Island
+        Sabah, Malaysia
     Railay Beach
+        Ao Nang, Mueang Krabi District, Krabi, Thailand
 
 
 
 Australia
-    Gold Coast
+    Gold Coast Beach
+        Queensland, Australia
     Whitehaven Beach
+        Whitsundays QLD 4802, Australia
 
 
